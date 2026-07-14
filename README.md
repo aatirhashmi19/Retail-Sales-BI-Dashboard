@@ -1,25 +1,24 @@
 # 📊 Retail Sales & Business Intelligence Dashboard
 
-## 📌 Project Overview
-
-This project is an end-to-end Business Intelligence solution built using Python, SQL, PostgreSQL, Machine Learning, and Power BI.
-
-The objective is to analyze retail sales data, identify business trends, build predictive models, and create interactive dashboards for decision-making.
+An end-to-end Business Intelligence project built using **Python, SQL, PostgreSQL, Machine Learning, and Power BI** to analyze retail sales data and provide actionable business insights.
 
 ---
 
-## 🚀 Features
+# 🚀 Project Overview
 
-- Data Cleaning & Feature Engineering
+This project demonstrates the complete data analytics workflow:
+
+- Data Cleaning
 - Exploratory Data Analysis (EDA)
-- SQL Analysis using PostgreSQL
-- Sales Forecasting using Machine Learning
+- SQL Analysis
+- Machine Learning Sales Forecasting
 - Interactive Power BI Dashboard
-- Executive Business Insights
+
+The objective is to help business stakeholders understand sales performance, customer behavior, regional trends, and product profitability.
 
 ---
 
-## 🛠 Technologies Used
+# 🛠️ Tech Stack
 
 - Python
 - Pandas
@@ -27,13 +26,15 @@ The objective is to analyze retail sales data, identify business trends, build p
 - Matplotlib
 - Seaborn
 - PostgreSQL
-- SQLAlchemy
+- SQL
 - Scikit-learn
 - Power BI
+- Git
+- GitHub
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
 Retail-Sales-BI-Dashboard
@@ -44,12 +45,13 @@ Retail-Sales-BI-Dashboard
 ├── sql
 ├── reports
 ├── images
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ---
 
-## 📊 Dashboard Pages
+# 📊 Dashboard Pages
 
 - Executive Dashboard
 - Customer Dashboard
@@ -59,16 +61,62 @@ Retail-Sales-BI-Dashboard
 
 ---
 
-## 📈 Key Insights
+# 📈 Key Business Insights
 
-- Technology generated the highest sales.
-- West region contributed the highest revenue.
-- Consumer segment generated maximum sales.
-- California recorded the highest sales.
-- Random Forest outperformed Linear Regression for sales prediction.
+- Technology category generated the highest revenue.
+- Consumer segment contributed the largest share of sales.
+- West region recorded the highest sales.
+- California was the top-performing state.
+- Random Forest produced better forecasting performance than Linear Regression.
 
 ---
 
-## 👨‍💻 Author
+# 📷 Dashboard Preview
+
+## Executive Dashboard
+
+![Executive Dashboard](images/executive_dashboard.png)
+
+## Customer Dashboard
+
+![Customer Dashboard](images/customer_dashboard.png)
+
+## Product Dashboard
+
+![Product Dashboard](images/product_dashboard.png)
+
+## Regional Dashboard
+
+![Regional Dashboard](images/regional_dashboard.png)
+
+## Sales Forecast Dashboard
+
+![Forecast Dashboard](images/forecast_dashboard.png)
+
+---
+
+# ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/aatirhashmi19/Retail-Sales-BI-Dashboard.git
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+---
+
+# 👨‍💻 Author
 
 **Aatir Hashmi**
